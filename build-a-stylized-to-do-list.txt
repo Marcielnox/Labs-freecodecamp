@@ -1,0 +1,73 @@
+** start of index.html **
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="utf-8">
+    <title>Styled To-Do List</title>
+</head>
+
+<body>
+    <ul class="todo-list">
+        <li><input type="checkbox" id="code" name="code">
+        <label for="code" id="code" name="code">Code Work</label>
+        <ul class="sub-item">
+            <li>
+             <a class="sub-item-link" target="_blank" href="youtube.com">How to code</a></li>
+        </ul>
+        </li>
+        <li><input type="checkbox" id="clean" name="clean">
+        <label for="clean" id="clean" name="clean">Clean up</label>
+        <ul class="sub-item">
+        <li><a class="sub-item-link" target="_blank" href="youtube.com">How to clean</a></li>
+        </ul>
+        </li>
+        <li><input type="checkbox" id="contemplate" name="contemplate">
+        <label for="contemplate" id="contemplate" name="contemplate">Think about life</label>
+        <ul class="sub-item">
+        <li><a class="sub-item-link" target="_blank" href="youtube.com">Thoughts</a></li>
+        </ul>
+        <li><input type="checkbox" id="relax" name="relax">
+        <label for="relax" id="relax" name="relax">Rest and Relaxation</label>
+        <ul class="sub-item">
+            <li><a class="sub-item-link" target="_blank" href="youtube.com">Relax</a></li>
+        </ul>
+        </li>
+    </ul>
+
+</body>
+
+</html>
+
+** end of index.html **
+
+** start of styles.css **
+
+a:link {
+  color: green;
+  text-decoration: none;
+}
+a:visited {
+  color: red;
+  text-decoration: none;
+}
+a:hover {
+  color: black;
+  text-decoration: none;
+}
+a:active {
+  color: yellow;
+  text-decoration: none;
+}
+a:focus {
+  border: 2px solid blue;
+  text-decoration: none;
+}
+a {
+  text-decoration: none;
+}
+
+** end of styles.css **
+
