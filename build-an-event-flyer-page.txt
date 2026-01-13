@@ -1,0 +1,72 @@
+** start of index.html **
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheets" href="styles.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Build an Event Flyer Page</title>
+</head>
+
+<body>
+  <header>
+    <img src="https://magazine.college.unc.edu/wp-content/uploads/sites/1355/2015/03/loggerhead1_babyKenLohmannNSFresearch-1024x768.jpg">
+    <h1>Pet Turtle Races</h1>
+     <p>Come meet the masters of speed</p>
+     <h2>When?</h2>
+     <p>all week long</p>
+  </header>
+  <hr>
+  <main>
+    <section>
+      <h2>Events</h2>
+      <ul>
+        <li>Water Racing</li>
+        <li>Landshell Records</li>
+        <li>Playtime</li>
+      </ul>
+    </section>
+    <section>
+      <h2>Feed the stars</h2>
+      <ul>
+        <li>Lettuce</li>
+        <li>Cherry Tomatoes</li>
+      </ul>  
+    </section>
+    <section>
+      <h2>Special Guest</h2>
+      <ul>
+        <li>Mary Shell-e</li>
+        <li>Voldetort</li>
+    </section>
+  </main>
+
+</body>
+
+</html>
+
+** end of index.html **
+
+** start of styles.css **
+
+body {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  min-height: calc(100vh - 100px);
+  width: 100vw;
+}
+hr {
+  width: 100%;
+}
+section {
+  width: 100%;
+}
+
+** end of styles.css **
+
