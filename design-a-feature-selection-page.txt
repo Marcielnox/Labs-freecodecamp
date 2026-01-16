@@ -1,0 +1,45 @@
+** start of index.html **
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Selection Feature Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <h1>Feature Selection</h1>
+    <div class="feature-card-container">
+        <label class="feature-card" for="feature1">Feature 1<input type="checkbox" id="feature1"></label>
+        <label class="feature-card" for="feature2">Feature 2<input type="checkbox" id="feature2"></label>
+        <label class="feature-card" for="feature3">Feature 3<input type="checkbox" id="feature3"></label>
+        <label class="feature-card" for="feature4">Feature 4<input type="checkbox" id="feature4"></label>
+    </div>
+
+</body>
+
+</html>
+
+** end of index.html **
+
+** start of styles.css **
+
+input[type='checkbox']:checked {
+  background-color: yellow;
+  border-color: green;
+}
+ 
+input[type='checkbox'] {
+  appearance: none;
+  border-width: 10px;
+  border-color: black;
+  border: 10px solid black;
+}
+input[type='checkbox']:checked::after {
+  content: "✓";
+}
+
+** end of styles.css **
+
