@@ -1,0 +1,64 @@
+** start of index.html **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Newspaper Article</title>
+  </head>
+  <body>
+    <main class="newspaper">
+      <header class="name">The Mythos Times</header>
+      <div class="date">Year 1AG, 12th of Zeriel</div>
+      <h1 class="headline">Heroes or Zeroes?</h1>
+      <h2 class="sub-headline">Why did the ones meant to save us, doom us instead?</h2>
+      <p class="text">We are currently living in an extremely turbulent period of time and that all has to do with the fact that the heroes, The Pathfinders, have decided that they would be the ones to release the gods. We have seen nothing but death and devastation following their actions. This is also not mentioning the fact that they went missing following the initial descent of the gods.</p>
+      <p class="text">Our investigative team has been following them in order to see what they were up to and it wasnt until recently that we had a break in the case. The supposed heroes have returned and are now in the process of hunting the primordial monster, they have little to no regard for the people or what they value and are now trying to destabilize the natural order of the world, where does it end with these guys?</p>
+      <h3 class="author">Jako Jonna Jameson</h3>
+   </main>
+
+  </body>
+</html>
+
+** end of index.html **
+
+** start of styles.css **
+
+html {
+  font-size: 24px;
+}
+.newspaper {
+  font-family: 'Open Sans' , sans-serif;
+  font-size: 16px;
+}
+.name {
+  font-size: 2rem;
+  font-family: 'Times New Roman' , serif;
+  text-transform: uppercase;
+}
+.author {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.headline {
+  font-size: 2em;
+  font-weight: bold;
+}
+.sub-headline {
+  font-size: 1.5em;
+  font-weight: 100;
+  font-style: italic;
+}
+.text {
+  text-indent: 20px;
+  line-height: 2em;
+}
+.text::first-letter {
+  font-weight: bold;
+  font-size: 2em;
+}
+
+** end of styles.css **
+
